@@ -1,0 +1,34 @@
+.rec {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  text-align: left;
+
+  &__header {
+    color: #272572;
+    font-weight: bold;
+  }
+  &__subheader {
+    color: #272572;
+    font-weight: bold;
+  }
+  &__text-container {
+    border-radius: 1rem;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  &__text--two {
+    width: 7%;
+  }
+
+  &__img-one {
+    margin-right: -11rem;
+  }
+  &__text--one {
+    max-width: 45%;
+  }
+}
