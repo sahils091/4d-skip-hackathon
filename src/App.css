@@ -1,38 +1,108 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sidebar {
   display: flex;
   flex-direction: column;
+  width: 330px;
+  height: 1024px;
+  background-color: #f2f2f2;
+}
+.sidebar__josh {
+  width: 152px;
+  height: 152px;
+  border-radius: 50%;
+}
+.sidebar__header{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 67px;
 }
-
-.App-link {
-  color: #61dafb;
+.sidebar__brand {
+  font-family: Baloo Bhai;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34.5px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  color: #4f4f4f;
 }
+.sidebar__logo {
+  width: 32px;
+  height: 32px;
+  margin-right: 10px;
+}
+.sidebar__user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.sidebar__name {
+  font-family: Baloo Bhai;
+  margin: 11px 0 0 0;
+  width: 178px;
+  height: 57px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 57px;
+  color: #272572;
+}
+.sidebar__greeting {
+  font-family: arial;
+  margin: 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  width: 200px;
+  height: 24px;
+  margin-left: 15px;
+  color: #272572;
+}
+.sidebar__nav {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-left: 30%;
+}
+.sidebar__text {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.38px;
+  color: #47466e;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.sideBar__logout {
+  width: 141px;
+  height: 48px;
+  background-color: #f2d58a;
+  border-radius: 16px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+  font-style: normal;
+  margin-top: 70px;
+}
+button{
+  border: none;
+  outline: none;
+  background: none;
+}
+.sideBar__logout-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sidebar__list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 10px;
+}
+.sideBar__nav-img {
+  color: #48466e;
 }
