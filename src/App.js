@@ -22,10 +22,17 @@ function App() {
 
 import './App.css';
 import SideBar from './sideBar';
+import Analysis from './Analysis';
 
 function App() {
-  return (
+  return ( Barry
+    <>
+      <SideBar/>
+      <Analysis/>
+    </>
+
     <SideBar/>
+
 
   );
 }
