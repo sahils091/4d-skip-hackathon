@@ -4,7 +4,7 @@
 }
 .dashboard {
   padding: 2rem 2rem;
-
+  display: flex;
   &__head-container {
     display: flex;
     color: #272575;
@@ -129,4 +129,8 @@
     background-size: cover;
     background-position: center;
   }
+}
+.link {
+  text-decoration: none;
+  color: black;
 }

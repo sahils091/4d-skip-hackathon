@@ -4,6 +4,7 @@
   width: 330px;
   height: 1024px;
   background-color: #f2f2f2;
+  margin-right: 20px;
 }
 .sidebar__josh {
   width: 152px;
@@ -199,4 +200,7 @@ button{
   position: absolute;
   top: 38%;
   right: 13%;
+}
+.firstrev {
+  display: flex;
 }

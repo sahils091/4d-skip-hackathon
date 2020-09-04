@@ -1,0 +1,49 @@
+.rec {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 27%;
+}
+
+.rec__header {
+  color: #272572;
+  font-weight: bold;
+}
+
+.rec__subheader {
+  color: #272572;
+  font-weight: bold;
+}
+
+.rec__text-container {
+  border-radius: 1rem;
+  -webkit-box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 2rem;
+}
+
+.rec__text--two {
+  width: 7%;
+}
+
+.rec__img-one {
+  margin-right: -11rem;
+}
+
+.rec__text--one {
+  max-width: 45%;
+}
+/*# sourceMappingURL=Recommendations.css.map */

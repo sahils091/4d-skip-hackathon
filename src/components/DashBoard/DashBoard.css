@@ -1,0 +1,187 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+}
+
+.dashboard {
+  padding: 2rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dashboard__head-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #272575;
+  font-weight: bold;
+}
+
+.dashboard__head-image {
+  height: 208px;
+  width: 208px;
+  background-color: #a6a6a6;
+  border-radius: 0.2rem;
+  margin-right: 2rem;
+  background-image: url("../../assets/carnita.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.dashboard__head-text--container {
+  text-align: left;
+}
+
+.dashboard__header {
+  margin-bottom: 2rem;
+  color: #272575;
+  font-family: "Baloo Bhai";
+}
+
+.dashboard__header-review {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.dashboard__header-review--blurb {
+  margin-left: 2rem;
+}
+
+.dashboard__header-type {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.dashboard__header-type--blurb {
+  margin-left: 1rem;
+}
+
+.dashboard__header-type--location {
+  margin-left: 1rem;
+}
+
+.dashboard__header-timing {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dashboard__header-timing--window {
+  margin-left: 1rem;
+}
+
+.dashboard-head {
+  margin-bottom: 3rem;
+}
+
+.dashboard-rev {
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+.dashboard__review {
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+  border-radius: 1rem;
+  background-color: #f2f2f2;
+  padding: 2rem 2rem;
+  -webkit-box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+          box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard__review-header {
+  margin-bottom: 2rem;
+}
+
+.dashboard__review-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 3rem;
+}
+
+.dashboard__review-img {
+  border-radius: 50%;
+  height: 65px;
+  width: 65px;
+  background-color: #a6a6a6;
+  margin-right: 2rem;
+  background-image: url("../../assets/Girl.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.dashboard__review-date-text {
+  margin-left: -20rem;
+  margin-right: 1rem;
+}
+
+.dashboard__review-txt {
+  margin-bottom: 1rem;
+}
+
+.dashboard__review-blurb--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.dashboard__review-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  height: 2rem;
+}
+
+.dashboard__review-container {
+  margin-bottom: 2rem;
+}
+
+.dashboard__review-header--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.dashboard__review-header--img {
+  padding-top: 15px;
+}
+
+.dashboard__review-recent--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.dashboard__review-recent--text {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.dashboard__review-img--two {
+  background-image: url("../../assets/boy.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+/*# sourceMappingURL=DashBoard.css.map */

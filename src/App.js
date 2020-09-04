@@ -1,40 +1,22 @@
 import React from 'react';
-
 import './App.css';
 import Recommendations from './components/Recommendations/Recommendations'
-
-
-import {Route, BrowserRouter} from "react-router-dom";
-import './App.css';
+import {Route, BrowserRouter, Switch} from "react-router-dom";
 import DashBoard from './components/DashBoard/DashBoard';
+import SideBar from './sideBar';
+import Analysis from './Analysis';
 
 
 function App() {
   return (
     <div className="App">
-
-    <Recommendations/>
-
-     <DashBoard/>
-     {/* <Route to="/recommendation" component={DashBoard}/> */}
-
+      <BrowserRouter>
+        <Switch>
+          <Route path="/" component={DashBoard} exact/>
+          <Route path="/recommendation" component={Analysis} exact/>
+        </Switch>
+      </BrowserRouter>
     </div>
-
-import './App.css';
-import SideBar from './sideBar';
-import Analysis from './Analysis';
-
-function App() {
-  return ( Barry
-    <>
-      <SideBar/>
-      <Analysis/>
-    </>
-
-    <SideBar/>
-
-
-  );
+  )
 }
-
-export default App;
+export default App
