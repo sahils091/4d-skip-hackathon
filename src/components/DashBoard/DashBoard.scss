@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.dashboard {
+  padding: 2rem 2rem;
+
+  &__head-container {
+    display: flex;
+    color: #272575;
+    font-weight: bold;
+  }
+  &__head-image {
+    height: 208px;
+    width: 208px;
+    background-color: #a6a6a6;
+    border-radius: 0.2rem;
+    margin-right: 2rem;
+    background-image: url("../../assets/carnita.png");
+    background-size: cover;
+    background-position: center;
+  }
+  &__head-text--container {
+    text-align: left;
+  }
+  &__header {
+    margin-bottom: 2rem;
+    color: #272575;
+    font-family: "Baloo Bhai";
+  }
+  &__header-review {
+    display: flex;
+    margin-bottom: 2rem;
+  }
+
+  &__header-review--img {
+    // margin-right: 2rem;
+  }
+  &__header-review--blurb {
+    margin-left: 2rem;
+  }
+
+  &__header-type {
+    display: flex;
+    //justify-content: space-evenly;
+    margin-bottom: 2rem;
+  }
+  &__header-type--blurb {
+    margin-left: 1rem;
+  }
+  &__header-type--location {
+    margin-left: 1rem;
+  }
+  &__header-timing {
+    display: flex;
+    //justify-content: space-between;
+  }
+  &__header-timing--window {
+    margin-left: 1rem;
+  }
+  &-head {
+    margin-bottom: 3rem;
+  }
+  &-rev {
+    text-align: left;
+    margin-bottom: 3rem;
+  }
+  &__review {
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    border-radius: 1rem;
+    background-color: #f2f2f2;
+    padding: 2rem 2rem;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+  }
+  &__review-header {
+    margin-bottom: 2rem;
+  }
+  &__review-container {
+    display: flex;
+    margin-bottom: 3rem;
+  }
+  &__review-img {
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    background-color: #a6a6a6;
+    margin-right: 2rem;
+    background-image: url("../../assets/Girl.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+  &__review-date-text {
+    margin-left: -20rem;
+    margin-right: 1rem;
+  }
+  &__review-txt {
+    margin-bottom: 1rem;
+  }
+  &__review-blurb--container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  &__review-date {
+    display: flex;
+    justify-content: space-evenly;
+    height: 2rem;
+  }
+  &__review-container {
+    margin-bottom: 2rem;
+  }
+  &__review-header--container {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__review-header--img {
+    padding-top: 15px;
+  }
+  &__review-recent--container {
+    display: flex;
+  }
+  &__review-recent--text {
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  &__review-img--two {
+    background-image: url("../../assets/boy.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+}
