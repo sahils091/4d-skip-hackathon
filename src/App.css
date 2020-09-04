@@ -9,6 +9,7 @@
   width: 152px;
   height: 152px;
   border-radius: 50%;
+  border: 3px solid #f2d58a;
 }
 .sidebar__header{
   display: flex;
@@ -105,4 +106,97 @@ button{
 }
 .sideBar__nav-img {
   color: #48466e;
+}
+
+.susan-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.girl-card {
+  box-shadow: 0px 3px 25px rgba(0, 0, 0, 0.15);
+  border-radius: 16px;
+  width: 70%;
+  height: 264px;
+  position: absolute;
+  left: 390px;
+  top: 116px;
+}
+.susan-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 30px 0 30px;
+}
+.susan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.susan-text {
+  margin: 0;
+  margin-left: 20px;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+}
+.susan-rating {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+.rating {
+  margin: 0 40px;
+}
+.susan-review {
+  padding: 0 200px 0 50px;
+}
+.extend {
+  position: absolute;
+  bottom: 0px;
+  left: 13px;
+  font-weight: bold;
+  text-align: center;
+
+}
+.extend-container {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: #f2d58a;
+  border-radius: 20px;
+}
+
+.susan-review {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.38px;
+}
+
+.review-header {
+  display: flex;
+  position: absolute;
+  top: 25px;
+  left: 370px;
+}
+.header-txt {
+  font-family: Baloo Bhai;
+  color: #272572;
+  margin-left: 20px;
+}
+.arrow-btn {
+  margin: 0;
+}
+.see-more {
+  position: absolute;
+  top: 37%;
+  right: 15%;
+  color:#272572;
+}
+.down-arrow {
+  color: #272572;
+  position: absolute;
+  top: 38%;
+  right: 13%;
 }
